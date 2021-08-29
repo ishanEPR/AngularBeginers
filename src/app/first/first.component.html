@@ -1,2 +1,11 @@
-<p>first components works!</p>
+<p *ngIf="!condition">first components works!</p>
 <p>{{title}}</p>
+
+
+<p *ngFor="let x of xs">
+    {{x}}
+
+</p>
+
+<button >submit</button>
+<input type="text" [value]="title">

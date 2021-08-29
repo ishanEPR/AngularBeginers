@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FirstComponent implements OnInit {
 
+  condition=true;
   title="First component Ishan"
 
   constructor() { }
