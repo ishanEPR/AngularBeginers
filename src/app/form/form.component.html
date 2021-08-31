@@ -1,9 +1,9 @@
 <div class="container">
-    <form action="" class="form-control">
+    <form  (ngSubmit)=submitForm(f) #f=ngForm class="form-control">
         <label>name:</label>
-        <input type="text" class="form-control">  
+        <input ngModel type="text" name="name" class="form-control">  
         <label>email:</label>
-        <input type="text" class="form-control">
+        <input ngModel type="text" name="email" class="form-control">
        <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 </div>
