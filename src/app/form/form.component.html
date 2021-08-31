@@ -1,9 +1,9 @@
 <div class="container">
     <form  (ngSubmit)=submitForm(f) #f=ngForm class="form-control">
         <label>name:</label>
-        <input ngModel type="text" name="name" class="form-control">  
+        <input ngModel type="text" name="name" class="form-control" #name=ngModel required>  
         <label>email:</label>
-        <input ngModel type="text" name="email" class="form-control">
-       <button type="submit" class="btn btn-primary">Submit</button>
+        <input ngModel type="text" name="email" class="form-control" email #name=ngModel>
+       <button type="submit" class="btn btn-primary" *ngIf="f.valid">Submit</button>
     </form>
 </div>
