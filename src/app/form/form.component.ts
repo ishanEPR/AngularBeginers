@@ -1,5 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { FormControl, FormGroup, NgForm } from '@angular/forms';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-form',
@@ -13,7 +14,7 @@ export class FormComponent implements OnInit {
 
  // @ViewChild('f') formdata: NgForm;
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
     // this.formcontrol=new FormGroup({
@@ -23,6 +24,11 @@ export class FormComponent implements OnInit {
   }
 
 
+  gotosecond()
+  {
+    this.router.navigate(['/page1']);
+
+  }
   submitForm(f: NgForm){
     console.log(f.value.name)
     //this.formdata=f;
