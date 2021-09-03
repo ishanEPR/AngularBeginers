@@ -12,6 +12,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormAngularMaterialComponent } from './form-angular-material/form-angular-material.component';
 import {MatButtonModule} from '@angular/material/button';
 import { ServerDetailsComponent } from './server-details/server-details.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ServerDetailsComponent } from './server-details/server-details.componen
     SecondComponentComponent,
     FormComponent,
     FormAngularMaterialComponent,
-    ServerDetailsComponent
+    ServerDetailsComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

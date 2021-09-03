@@ -6,8 +6,8 @@ import { SecondComponentComponent } from './second-component/second-component.co
 
 const routes: Routes = [
   {path:'',component: FormComponent},
-  {path:'page1',component:FormAngularMaterialComponent},
-  {path:'page2', component: SecondComponentComponent}
+  {path:'profile',component:FormAngularMaterialComponent},
+  {path:'about', component: SecondComponentComponent}
 ];
 
 @NgModule({

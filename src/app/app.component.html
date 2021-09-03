@@ -29,11 +29,35 @@
 <router-outlet></router-outlet> -->
 <!-- routing tutorial -->
 
-<div class="container">
+<!-- <div class="container">
     <app-server-details></app-server-details>
     <div class="row">
         <label>enter name</label>
         <input type="text" class="form-control">
     </div>
-</div>
+</div> -->
 
+
+<!-- add naviagtion in routing -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+     
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/profile">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About Us</a>
+          </li>
+         
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- add naviagtion in routing -->
+
+ <router-outlet></router-outlet> 
