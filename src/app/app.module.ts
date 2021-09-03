@@ -11,6 +11,7 @@ import { FormComponent } from './form/form.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormAngularMaterialComponent } from './form-angular-material/form-angular-material.component';
 import {MatButtonModule} from '@angular/material/button';
+import { ServerDetailsComponent } from './server-details/server-details.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import {MatButtonModule} from '@angular/material/button';
     FirstComponent,
     SecondComponentComponent,
     FormComponent,
-    FormAngularMaterialComponent
+    FormAngularMaterialComponent,
+    ServerDetailsComponent
   ],
   imports: [
     BrowserModule,
