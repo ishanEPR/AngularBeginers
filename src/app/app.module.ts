@@ -13,6 +13,9 @@ import { FormAngularMaterialComponent } from './form-angular-material/form-angul
 import {MatButtonModule} from '@angular/material/button';
 import { ServerDetailsComponent } from './server-details/server-details.component';
 import { HeaderComponent } from './header/header.component';
+import { HomeComponent } from './home/home.component';
+import { ProfileComponent } from './profile/profile.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { HeaderComponent } from './header/header.component';
     FormComponent,
     FormAngularMaterialComponent,
     ServerDetailsComponent,
-    HeaderComponent
+    HeaderComponent,
+    HomeComponent,
+    ProfileComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
