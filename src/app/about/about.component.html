@@ -1,1 +1,22 @@
-<p>about works!</p>
+<div class="container">
+    <h2>Employee Details</h2>
+    <table class="table">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Password</th>
+            <th>Action</th>
+        </tr>
+        <tr *ngFor="let emp of employees">
+            <td>{{emp.id}}</td>
+            <td>{{emp.name}}</td>
+            <td>{{emp.email}}</td>
+            <td>{{emp.password}}</td>
+            <td><button type="submit" class="btn btn-danger">Delete</button></td>
+
+
+        </tr>
+
+    </table>
+</div>
