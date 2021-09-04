@@ -16,6 +16,9 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { ProfileComponent } from './profile/profile.component';
 import { AboutComponent } from './about/about.component';
+import { MatSliderModule } from '@angular/material/slider';
+import {MatIconModule} from '@angular/material/icon';
+
 
 @NgModule({
   declarations: [
@@ -37,7 +40,9 @@ import { AboutComponent } from './about/about.component';
     BrowserAnimationsModule,
     MatInputModule,
     MatButtonModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatSliderModule,
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
